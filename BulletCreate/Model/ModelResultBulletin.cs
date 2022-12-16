@@ -8,6 +8,7 @@ namespace BulletCreate.Model
 {
     internal class ModelResultBullet
     {
+        public int Ord { get; set; }
         public string? Name { get; set; }
         public string? Ufa { get; set; }
         public string? Ijevsk { get; set; }
